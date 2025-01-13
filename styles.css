@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    direction: rtl;
+    text-align: right;
+    background-color: #333;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.login-container, .welcome-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #444;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.ad-bar {
+    background-color: #555;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.ad-bar p {
+    margin: 0;
+    display: inline;
+}
+
+.ad-button {
+    background-color: gold;
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.logo img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.logo h2 {
+    margin-top: 0;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.login-button, .back-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.platforms {
+    margin: 20px 0;
+    text-align: left;
+}
+
+.platforms label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.icons img {
+    width: 30px;
+    margin: 10px;
+}
+
+.back-button:hover, .login-button:hover {
+    background-color: #45a049;
+}
